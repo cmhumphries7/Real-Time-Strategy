@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class UnitCommandGiver : MonoBehaviour
 {
    [SerializeField] private UnitSelectionHandler unitSelectionHandler = null;
-    [SerializeField] private LayerMask layerMask = new LayerMask();
+   [SerializeField] private LayerMask layerMask = new LayerMask();
 
     private Camera mainCamera;
 
